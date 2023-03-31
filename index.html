@@ -16,7 +16,7 @@
 </head>
 <body>
   <!-- This is the loading animation at the beginning of the loaded page. -->
-  <div class="loading_screen">
+  <div class="loading_screen display-none">
     <div class="loading_screen--animation">
       <span class="letter1">S</span>
       <span class="letter2">N</span>
@@ -31,8 +31,10 @@
       <img class="logo_image" src="/images/logo.svg" alt="">
     </div>
     <div class="navigation_menu">
-      <img class="hamburger_menu hamburger_menu-open" src="/images/icon-menu.svg" alt="hamburger_menu-open">
-      <img class="hamburger_menu hamburger_menu-closed" src="/images/icon-close-menu.svg" alt="hamburger_menu-close">
+      <div class="hamburger_menu display-none">
+        <img class="hamburger_menu-open" src="/images/icon-menu.svg" alt="hamburger_menu-open">
+        <img class="hamburger_menu-closed" src="/images/icon-close-menu.svg" alt="hamburger_menu-close">
+      </div>
       <div class="navigation_links">
         <ul>
           <li>
