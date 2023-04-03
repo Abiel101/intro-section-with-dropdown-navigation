@@ -32,22 +32,31 @@ a{
 }
 li{
     list-style: none;
+    color: var(--Gray);
 }
 .display-none{
     display: none;
 }
 
+/* a and li hover states */
+a:hover, li:hover{
+    color: var(--Black);
+}
+
 /* Navigation Styles */
-nav{
-    padding: 2rem;
+/* Repeated styles - refactored */
+nav, .navigation_menu, .drop_down-arrows, .login_register--links{
     display: flex;
     align-items: center;
+}
+/* normal styles */
+nav{
+    padding: 2rem;
     justify-content: space-between;
     gap: 2rem;
 }
+
 .navigation_menu{
-    display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
     padding-bottom: 0.8rem;
@@ -57,7 +66,29 @@ nav{
     gap: 2rem;
 }
 
-
+.drop_down-arrows{
+    position: relative;
+    gap: 0.2rem;
+}
 .drop_down{
-    display: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 2rem;
+    background-color: var(--White);
+    box-shadow: 1px 1px 10px var(--Black);
+}
+.login_register--links{
+    gap: 2rem;
+}
+.btn--second{
+    border: solid 2px var(--Gray);
+    padding: 0.8rem 1.5rem;
+    border-radius: 1rem;
+    transition: 0.2s;
+}
+.btn--second:hover{
+    border-color: var(--Black);
 }
