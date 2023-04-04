@@ -35,11 +35,11 @@ li{
     color: var(--Gray);
 }
 .display-none{
-    display: none;
+    display: none !important;
 }
 
-/* a and li hover states */
-a:hover, li:hover{
+/* a hover states */
+a:hover{
     color: var(--Black);
 }
 
@@ -65,21 +65,6 @@ nav{
     display: flex;
     gap: 2rem;
 }
-
-.drop_down-arrows{
-    position: relative;
-    gap: 0.2rem;
-}
-.drop_down{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    top: 2rem;
-    background-color: var(--White);
-    box-shadow: 1px 1px 10px var(--Black);
-}
 .login_register--links{
     gap: 2rem;
 }
@@ -92,3 +77,33 @@ nav{
 .btn--second:hover{
     border-color: var(--Black);
 }
+/* Drop down styles */
+.drop_down-arrows{
+    position: relative;
+    gap: 0.2rem;
+}
+.drop_down{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--White);
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 0.5rem;
+    padding: 1.5rem 1.5rem;
+    position: absolute;
+    top: 2rem;
+}
+.drop_down li{
+    display: flex;
+    gap: 10px;
+}
+/* drop down separate styling */
+.feature_dropdown{
+    width: 100px;
+    right: 0px;
+}
+.company_dropdown{
+    width: 75px;
+}
+

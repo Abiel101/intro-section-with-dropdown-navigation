@@ -33,20 +33,26 @@
       </div>
       <div class="navigation_ul">
         <ul class="navigation_links">
-          <li class="drop_down-arrows">
-            Features <img id="features-arrow-down" class="icon-arrow-down" src="/images/icon-arrow-down.svg" alt="icon arrow down">
-                     <img id="features-arrow-up" class="icon-arrow-up display-none" src="/images/icon-arrow-up.svg" alt="icon arrow down">
-            <ul class="drop_down">
+          <!-- id for clicking -->
+          <li id="features" class="drop_down-arrows">
+              Features 
+              <img class="icon-arrow-down" src="/images/icon-arrow-down.svg" alt="icon arrow down">
+              <img class="icon-arrow-up display-none" src="/images/icon-arrow-up.svg" alt="icon arrow down">
+<!-- id for targetting them with js to add and remove display -->
+            <ul id="feature_dropdown" class="feature_dropdown drop_down display-none">
               <li><img src="/images/icon-todo.svg" alt="Todo-icon"><a href="#">Todo List</a></li>
               <li><img src="/images/icon-calendar.svg" alt="Calendar-icon"><a href="#">Calendar</a></li>
               <li><img src="/images/icon-reminders.svg" alt="Reminder-icon"><a href="#">Reminders</a></li>
               <li><img src="/images/icon-planning.svg" alt="Planning-icon"><a href="#">Planning</a></li>
             </ul>
           </li>
-          <li class="drop_down-arrows">
-            Company <img id="company-arrow-down" class="icon-arrow-down" src="/images/icon-arrow-down.svg" alt="">
-                    <img id="company-arrow-up" class="icon-arrow-up display-none" src="/images/icon-arrow-up.svg" alt="icon arrow down">
-            <ul class="drop_down">
+          <!-- Id for clicking -->
+          <li id="company" class="drop_down-arrows">
+              Company 
+              <img id="company-arrow-down" class="icon-arrow-down" src="/images/icon-arrow-down.svg" alt="">
+              <img id="company-arrow-up" class="icon-arrow-up display-none" src="/images/icon-arrow-up.svg" alt="icon arrow down">
+<!-- id for targetting them with js to add and remove display -->
+            <ul id="company_dropdown" class="company_dropdown drop_down display-none">
               <li><a href="#">History</a></li>
               <li><a href="#">Our Team</a></li>
               <li><a href="#">Blog</a></li>
