@@ -110,4 +110,8 @@ nav{
 .company_dropdown{
     width: 75px;
 }
+/* Hover effect for dropdown menu */
+.drop_down-arrows:hover .drop_down{
+    display: flex !important;
+}
 
