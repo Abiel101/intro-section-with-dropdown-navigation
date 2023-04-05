@@ -33,6 +33,7 @@ a{
 li{
     list-style: none;
     color: var(--Gray);
+    cursor: pointer;
 }
 .display-none{
     display: none !important;
