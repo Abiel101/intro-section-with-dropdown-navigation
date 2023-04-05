@@ -40,7 +40,7 @@ li{
 }
 
 /* a hover states */
-a:hover{
+a:hover, .drop_down-arrows span{
     color: var(--Black);
 }
 
