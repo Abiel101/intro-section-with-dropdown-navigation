@@ -98,6 +98,8 @@ nav{
 .drop_down li{
     display: flex;
     gap: 10px;
+}
+.drop_down-arrows{
     cursor: pointer;
 }
 /* drop down separate styling */
