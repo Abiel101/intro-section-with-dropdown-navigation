@@ -124,5 +124,8 @@ nav{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 5% 0px;
+    padding: 5%;
+}
+.intro_content, .intro_image{
+    width: 50%;
 }
