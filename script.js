@@ -14,14 +14,14 @@ let triggerClick;
 
 // Reusable functions
 function openDropDown(dropdownLink, arrowDown, arrowUp){
-    dropdownLink.classList.remove("display-none");
+    dropdownLink.classList.add("drop_down-animation");
     arrowDown.classList.add("display-none");
     arrowUp.classList.remove("display-none");
     triggerClick = true;
     console.log(triggerClick);
 };
 function closeDropDown(dropdownLink, arrowDown, arrowUp){
-    dropdownLink.classList.add("display-none");
+    dropdownLink.classList.remove("drop_down-animation");
     arrowDown.classList.remove("display-none");
     arrowUp.classList.add("display-none");
     triggerClick = false;
