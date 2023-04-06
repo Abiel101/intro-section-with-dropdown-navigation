@@ -10,7 +10,7 @@
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
 
 </head>
-<body>
+<body id="body">
   <!-- This is the loading animation at the beginning of the loaded page. -->
   <div class="loading_screen display-none">
     <div class="loading_screen--animation">
@@ -34,10 +34,10 @@
       <div class="navigation_ul">
         <ul class="navigation_links">
           <!-- id for clicking -->
-          <li id="features" class="drop_down-arrows">
-              <span>Features</span>
-              <img class="icon-arrow-down" src="./images/icon-arrow-down.svg" alt="icon arrow down">
-              <img class="icon-arrow-up display-none" src="images/icon-arrow-up.svg" alt="icon arrow down">
+          <li class="drop_down-arrows">
+              <span id="features">Features</span>
+              <img id="feature-arrow-down" class="icon-arrow-down" src="./images/icon-arrow-down.svg" alt="icon arrow down">
+              <img id="feature-arrow-up" class="icon-arrow-up display-none" src="images/icon-arrow-up.svg" alt="icon arrow down">
 <!-- id for targetting them with js to add and remove display -->
             <ul id="feature_dropdown" class="feature_dropdown drop_down display-none">
               <li><img src="./images/icon-todo.svg" alt="Todo-icon"><a href="#">Todo List</a></li>
@@ -47,8 +47,8 @@
             </ul>
           </li>
           <!-- Id for clicking -->
-          <li id="company" class="drop_down-arrows">
-              <span>Company</span>
+          <li class="drop_down-arrows">
+              <span id="company">Company</span>
               <img id="company-arrow-down" class="icon-arrow-down" src="./images/icon-arrow-down.svg" alt="">
               <img id="company-arrow-up" class="icon-arrow-up display-none" src="./images/icon-arrow-up.svg" alt="icon arrow down">
 <!-- id for targetting them with js to add and remove display -->
