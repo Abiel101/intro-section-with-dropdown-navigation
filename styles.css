@@ -119,3 +119,9 @@ nav{
     top: 2rem;
 }
 
+/* Intro content Styles */
+main{
+    display: flex;
+    align-items: center;
+    padding: 5% 0px;
+}

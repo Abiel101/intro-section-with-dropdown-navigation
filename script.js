@@ -12,7 +12,7 @@ const companyArrowUp = document.getElementById("company-arrow-up");
 
 let triggerClick;
 
-// Reusable functions
+// Reusable functions open and close
 function openDropDown(dropdownLink, arrowDown, arrowUp){
     dropdownLink.classList.add("drop_down-animation");
     arrowDown.classList.add("display-none");
