@@ -120,7 +120,7 @@ nav{
 }
 
 /* Intro content Styles */
-main{
+.main-section{
     width: 100%;
     display: flex;
     justify-content: center;
