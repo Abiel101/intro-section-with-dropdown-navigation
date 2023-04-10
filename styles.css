@@ -121,11 +121,54 @@ nav{
 
 /* Intro content Styles */
 .main-section{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 5%;
+	display: flex;
+	justify-content: center;
+	gap: 3rem;
 }
-.intro_content, .intro_image{
-    width: 50%;
+.intro_content{
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-top: 2rem;
 }
+.content{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.content h1{
+	font-size: 4.5rem;
+}
+.btn--primary{
+	background-color: var(--Black);
+	margin-top: 2rem;
+	color: var(--White);
+    padding: 1rem 1.7rem;
+    border-radius: 0.8rem;
+	border: 1px solid var(--Black);
+    transition: 0.2s;
+}
+.btn--primary:hover{
+	background-color: var(--White);
+	color: var(--Black);
+}
+.content-brands{
+	width: 100%;
+	display: flex;
+	gap: 1rem;
+}
+.content-brands img{
+	width: 70px;
+}
+.intro_image{
+	display: flex;
+	justify-content: center;
+	width: 40%;
+}
+.hero_image-desktop{
+	width: 90%;
+}
+
+/* Front end mentor footer styles*/
