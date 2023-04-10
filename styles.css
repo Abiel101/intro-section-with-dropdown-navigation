@@ -172,3 +172,16 @@ nav{
 }
 
 /* Front end mentor footer styles*/
+.attribution{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	background-color: #4066E0;
+	gap: 10px;
+	padding: 2rem 0px;
+	margin-top: 3rem;
+	color: #B4BFFF;
+}
+.attribution a{
+	color: var(--White);
+}
